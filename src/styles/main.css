@@ -51,7 +51,7 @@ body {
   position: relative;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: var(--theme-background) url('/assets/images/bg.svg') no-repeat;
+  background: var(--theme-background) url('/assets/images/gradient.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -68,7 +68,8 @@ a {
 
 h1 {
   font-size: var(--step-5);
-  font-family: var(--font-family-heading);
+  /* font-family: var(--font-family-heading); */
+  margin-top: 1rem;
   font-weight: 600;
   line-height: 1.2;
   font-stretch: 125%;
